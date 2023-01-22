@@ -4,6 +4,7 @@ import { getDataFromAPI } from '../HelperMethods/APiMethods';
 import bac from "../Assets/Doctor.png";
 import Equipments from './Equipments';
 import RootUrl from '../URL';
+import NoRequest from './NoRequest';
 
 
 function Requests() {
@@ -30,10 +31,10 @@ function Requests() {
               <Card className="list-crd">
                 <div className="internal-crd">
                   <div className="word-txt">
-                    <Card.Header as="h5">{data.tohospital.name  || ""}</Card.Header>
+                    <Card.Header as="h5">{data.fromhospital.name  || ""}</Card.Header>
                     <Card.Body>
 
-                      <Card.Text> City : {data.tohospital.address.city || ""}  landmark : {data.tohospital.address.landmark || ""}</Card.Text>
+                      <Card.Text> City : {data.fromhospital.address.city || ""}  landmark : {data.fromhospital.address.landmark || ""}</Card.Text>
 
                       <Equipments state={data} type={{hospitalist:false}}/>
 
@@ -46,7 +47,7 @@ function Requests() {
               </Card>
             )
 
-          }) : <><p>No Requests</p></>
+          }) : <><NoRequest/></>
 
       }
 

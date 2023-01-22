@@ -114,7 +114,7 @@ const MainPage = () => {
                     Clinical excellence must be the priority for any health care
                     service provider.
                   </Card.Text>
-                  <Button variant="primary">Apply for Resources</Button>
+                  <Button href="/#" variant="primary">Apply for Resources</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -146,7 +146,7 @@ const MainPage = () => {
                     We help people in need by providing the emergency factors to
                     the hospitals conncted as a community.
                   </Card.Text>
-                  <Button variant="primary">Our Services</Button>
+                  <Button href="/#Service" variant="primary">Our Services</Button>
                 </Card.Body>
               </Card>
             </Col>

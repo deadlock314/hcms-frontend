@@ -3,8 +3,8 @@ import React from 'react'
 const Service = () => {
   return (
 
-         <div className="ps-5 pe-5">        
-      <div className='text-center mt-5 p-4'><h1 className='mt-5'>Available Services</h1></div>
+         <div id='Service'className="ps-5 pe-5">        
+      <div className='text-center mt-5 p-4, ser'><h1 className='mt-5'>Available Services</h1></div>
       <table className="table text-center my-3">
         <tbody className=''>
         {/* <tr  className="text-center m-auto"><td></td></tr> */}
@@ -29,7 +29,6 @@ const Service = () => {
       
         </tbody>
         </table>
-        <div className='text-center mt-2 p-4'><button className='btn p-3 text-center btn-outline-info'>LEARN MORE</button></div>
       </div>
 
   )

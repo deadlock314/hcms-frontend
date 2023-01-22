@@ -1,146 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
 
-@keyframes right-img-animation {
-    0% {
-      width: 13vw;
-      height:13vw;
-      transform: scale(0);
-    }
-    100%  {
-      /* width: 20vw;
-      height:20vw; */
-      transform: scale(1);
-    }
-  }
-  @keyframes left-img-animation {
-    0% {
-      width: 9vw;
-      height:9vw;
-      transform: scale(0);
-    }
-    100%  {
-      /* width: 13vw;
-      height:13vw; */
-      transform: scale(1);
-    }
-  }
-  
-  .container{
-    margin:auto;
-    margin-top: 70px;
-    width: 75%;
-  }
-  .about-images{
-    width:50%;
-    padding: 10px 40px 0 0;
-  }
-  .left-img{
-      width: 13vw;
-      height:13vw;
-      border-radius: 100%;
-      margin: 30px 0 -20px 60px;
-      background-image:url("../Assets/doctor-img-aboutus.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      animation: left-img-animation 1.5s ease-in-out; 
-      transform-origin:center center;   
-  }
-  .right-img{
-      width: 20vw;
-      height:20vw;
-      border-radius: 100%;
-      margin: -15px 0 10px 45%;
-      background-image:url("../Assets/doctor-img-aboutus2.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      animation: right-img-animation 1.5s ease-in-out; 
-      transform-origin:center center;  
-  }
-  .about-details{
-    width:50%;
-    padding: 10px 40px 10px 10px ;
-  }
-  .about-details p{
-      line-height: 2;
-      font-size: 1rem;
-      margin: 20px 0 0;
-  }
-  .about-details span{
-    font-weight: 700;
-    line-height: 2;
-    font-size: 1rem;
-  } 
-  .about-details h2{
-    font-weight: 700;
-    font-size: 2.25rem;
-  }
-  .container-top{
-    display: flex;
-  }
-  .container-bottom{
-    display:flex;
-  }
-  
-  .features-1 i , .features-2 i{
-    float: left;
-    margin: 15px 10px 0 0;
-    color:#e6a73c;
-  }
-  .features-1 p , .features-2 p{
-    padding-top: 20px;
-    font-size: 1.1rem;
-  }
-  
-  /* ABOUT TEAM CSS */
-  
-  .about-team{
-    height: 100vh;
-    width: 100%;
-    font-family: 'Barlow Condensed', sans-serif;
-    text-align:center;
-    position: relative; 
-  }
-  
-  .dp{
-    margin: auto;
-    width:80%;
-    height: 15rem;
-    border-radius: 60%;    
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .card{
-    width: 20%;
-    padding: 0 2%;
-  }
-  .card-container{
-    position: relative;
-    top: 7%;
-    display: flex;
-    justify-content: center;
-    gap: 1%;
-  }
-  .heading,.designation{
-    /* color:#1430c5; */
-    color: #d48a2d;
-  }
-  .heading{
-    padding-top:50px;
-    font-size: 50px;
-    font-family: 'Barlow Condensed', sans-serif;
-  }
-  p{
-    font-style: italic;
-  }
-  i{
-    margin-right: 10px;
-    color: #d48a2d;
-  }
-  .kunal-dp{
-    background-image: url("../Assets/kunal-dp-hcms.jpg");
-  }
-  .rahul-dp{
-    background-image: url("../Assets/rahul-dp-hcms.jpg");    
-  }
-  .aarti-dp{
-    background-image: url("../Assets/aarti-dp-hcms.jpg");
-  }
+.ab-container{
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about{
+  width: 100vw;
+  align-self: center;
+  text-align: center;
+  margin: .625rem;
+
+}
+.about-sec{
+  display: flex;
+  flex: 50 50;
+}
+.about-img1{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  height: 45vw;
+  border-radius: 50%;
+}
+.about-details{
+  font-size:larger;
+  padding-top:4.125rem ;
+  width: 28rem;
+  font-family: 'Bitter', serif;
+}

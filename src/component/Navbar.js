@@ -35,9 +35,9 @@ const Navbar = () => {
         <h3>HCMS</h3>
         <nav ref={navRef}>
           <a href="/#">Home</a>
-          <a href="/#">About</a>
-          <a href="/#">Service</a>
-          <a href="/#">Contact us</a>
+          <a href="/#About">About</a>
+          <a href="/#Service">Service</a>
+          <a href="/#Contact">Contact us</a>
           {
             (auth) ? <Link to='/hospital' >
               <button className="signup-btn">Hospital</button>

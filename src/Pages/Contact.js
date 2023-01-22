@@ -4,7 +4,7 @@ import ContactImage from "../Assets/bg-1.jpg";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="Contact" className="contact">
       <img className="leftside" src={ContactImage} alt="Contact-food"/>
       <div className="rightside">
         <h1>Contact Us</h1>
