@@ -1,0 +1,112 @@
+.list-cont{
+  width:60%;
+  margin-left: 3vw;
+  background-color: #fff;
+  padding: 30px 30px;
+}
+.li-heading{
+  width: 90%;
+  padding: 5px 30px;
+  margin:20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content:space-between;
+}
+.li{
+  width: 90%;
+  padding: 5px 30px;
+  margin:20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  
+}
+.dashboard-h1{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7vw;
+}
+.card-cont{
+  background-color: #df6c4e;
+  color:#fff;
+  width:22%;
+  text-align: center;
+  padding:7rem 10px 20px ;
+  border-radius: 10px;
+  position: fixed;
+  top:30%;
+  left: 70%;
+}
+.card-img{
+  width: 13vw;
+  height: 13vw;
+  margin: auto;
+  background-image: url("https://prasadhospital.org/img/prasad-hospital-banner11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60%;
+  position: absolute;
+  left:20%;
+  top: -30%;
+}
+.card-add i{
+  color: rgb(255, 255, 255);
+}
+.card-name{
+  font-weight: 900;
+}
+.card-add{
+  font-style: italic;
+}
+.li-heading p{
+  font-weight: 800;
+}
+
+/* CSS for BUTTON */
+.button-6 {
+align-items: center;
+background-color: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: rgba(0, 0, 0, 0.85);
+cursor: pointer;
+display: inline-flex;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+margin: 0;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+border-color: rgba(0, 0, 0, 0.15);
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+transform: translateY(-1px);
+}
+
+.button-6:active {
+background-color: #F0F0F1;
+border-color: rgba(0, 0, 0, 0.15);
+box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+color: rgba(0, 0, 0, 0.65);
+transform: translateY(0);
+}
